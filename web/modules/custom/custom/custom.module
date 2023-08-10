@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Contains custom.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function custom_theme() {
+  return [
+    'users_block' => [
+      'variables' => [
+        'users' => [],
+      ],
+    ],
+  ];
+}

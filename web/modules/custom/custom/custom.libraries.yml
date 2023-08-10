@@ -1,0 +1,10 @@
+custom:
+  version: 1.x
+  js:
+    js/custom.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

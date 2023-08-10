@@ -1,0 +1,6 @@
+custom.custom_ajax_response:
+  path: '/ajax-response'
+  defaults:
+    _controller: '\Drupal\custom\Controller\AjaxController::ajaxResponse'
+  requirements:
+    _permission: 'access content'

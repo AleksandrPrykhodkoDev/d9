@@ -1,0 +1,8 @@
+name: Custom
+description: Provided custom code on the site.
+type: module
+package: Custom
+core_version_requirement: ^9.5
+dependencies:
+  - field
+  - block
